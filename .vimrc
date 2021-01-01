@@ -41,18 +41,11 @@ call plug#begin()  " Manage plugins with vim-plug.
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'mileszs/ack.vim'
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-vinegar'
 Plug 'vim-airline/vim-airline'
-Plug 'altercation/vim-colors-solarized'
-Plug 'jistr/vim-nerdtree-tabs'
 Plug 'scrooloose/syntastic' 
 Plug 'xolox/vim-misc'
-Plug 'klen/python-mode'
-Plug 'nathanaelkane/vim-indent-guides'
-Plug 'godlygeek/tabular'
-Plug 'easymotion/vim-easymotion' 
 call plug#end()
 
 " noremap ; :           " Use ; in addition to : to type commands.
